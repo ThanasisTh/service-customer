@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  service-customer:
+    image: service-customer
+    container_name: service-customer
+    ports:
+      - "8081:8081"
